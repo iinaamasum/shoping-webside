@@ -7,3 +7,7 @@
 .menu-size{
     min-width: 20px;
 }
+
+.sidebar>.d-flex> ul> li> a{
+    text-decoration: none;
+}
