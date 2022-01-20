@@ -11,6 +11,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -20,17 +21,28 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container fw-bold">
 
-                <!-- logo and dropdown  -->
+                <!-- logo -->
                 <div class="navbar-left">
-                    <ul class="navbar-nav d-flex align-items-center me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <div class="">
                             <a class="navbar-brand" href="#">
                                 <img src="./images/icon/logo.png" alt="" srcset="">
                             </a>
                         </div>
+                    </ul>
+                </div>
 
+                <!-- toggle icon  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <li class="nav-item dropdown mx-2">
+                    <!-- lan and currency -->
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown lg-mx-2">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 ENG
@@ -43,7 +55,7 @@
                         </li>
 
 
-                        <li class="nav-item dropdown mx-2">
+                        <li class="nav-item dropdown lg-mx-2">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 BDT
@@ -55,30 +67,22 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
-
-                <!-- toggle icon  -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- currency ends -->
 
                     <!-- home and others -->
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item mx-1">
+                        <li class="nav-item lg-mx-1">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="#">Link</a>
+                        <li class="nav-item lg-mx-1">
+                            <a class="nav-link" href="#">Products</a>
                         </li>
-                        <!-- serach area  -->
-                        <form class="d-flex align-items-center mx-1">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                        <li class="nav-item dropdown mx-2">
+                        <li class="nav-item lg-mx-1">
+                            <a class="nav-link" href="#">Best Selling</a>
+                        </li>
+
+                        <!-- all catagory  -->
+                        <li class="nav-item dropdown lg-mx-2">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 ALL CATAGORY
@@ -94,17 +98,23 @@
                     <!-- sign in and other options -->
                     <div class="navbar-right">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item mx-1">
-                                <a class="nav-link active" aria-current="page" href="#">Log In</a>
+                            <!-- serach area  -->
+                            <form class="d-flex align-items-center lg-mx-1">
+                                <input class="form-control me-0" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn ms-1" type="submit"><i class="fas fa-search"></i></button>
+                            </form>
+                            
+                            <li class="nav-item lg-mx-1">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fas fa-sign-in-alt"></i></a>
                             </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link active" aria-current="page" href="#">Sign UP</a>
+                            <li class="nav-item lg-mx-1">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fas fa-user-plus"></i></a>
                             </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link active" aria-current="page" href="#">Cart</a>
-                            </li>
-                            <li class="nav-item mx-1">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <li class="nav-item lg-mx-1">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fas fa-shopping-cart"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -120,6 +130,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f8f95e6979.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
